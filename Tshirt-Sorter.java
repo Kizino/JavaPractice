@@ -14,7 +14,7 @@
 
 public class Main {
     public static void main(String[] args) {
-        tshirtSorter("mmsssmmssllsmsls");
+        System.out.println(tshirtSorter("mmsssmmssllsmsls"));
     }
 
     static String tshirtSorter(String input){
