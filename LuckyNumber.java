@@ -1,3 +1,5 @@
+package org.example;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -11,7 +13,7 @@ import java.util.List;
  * luckyNumbers(6) => might return [1, 7, 9, 6, 5, 2]
  */
 
-public class Main {
+public class LuckyNumber {
 
     public static List<Integer> luckyNumbers(int n){
         List<Integer> intList = new ArrayList<>();
