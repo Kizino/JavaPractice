@@ -18,7 +18,7 @@ package org.example;
 public class Main {
     static int binarySearch(int choice) {
         int lowLimit = 0;
-        int highLimit = 100;
+        int highLimit = 101;
         int mid = 0;
         int increment = 0;
 
