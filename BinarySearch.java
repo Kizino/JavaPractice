@@ -1,5 +1,3 @@
-
-
 package org.example;
 
 //Binary search is one of the most important Computer Science algorithms.
@@ -32,7 +30,7 @@ public class Main {
             } else if (choice < mid ) {
                 highLimit = mid;
             }else {
-                System.out.println("BINGO!");
+//                System.out.println("BINGO!");
                 break;
             }
         }
@@ -40,10 +38,14 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println(binarySearch(37));
-        System.out.println(binarySearch(31));
-        System.out.println(binarySearch(50));
-        System.out.println(binarySearch(75));
-        System.out.println(binarySearch(100));
+        // Test Cases
+        for(int i = 1; i<= 100; i++){
+            int result = binarySearch(i);
+//            System.out.println("Found " + i + " in: " +  result + " times");
+
+            if(result >7){
+                System.out.println("This doesnt look right! Choice: " + i + " Found in: " + result);
+            }
+        }
     }
 }
