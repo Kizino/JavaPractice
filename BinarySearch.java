@@ -1,3 +1,5 @@
+
+
 package org.example;
 
 //Binary search is one of the most important Computer Science algorithms.
@@ -38,6 +40,10 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        System.out.println(binarySearch(37));
         System.out.println(binarySearch(31));
+        System.out.println(binarySearch(50));
+        System.out.println(binarySearch(75));
+        System.out.println(binarySearch(100));
     }
 }
