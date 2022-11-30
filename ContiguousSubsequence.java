@@ -58,8 +58,8 @@ public class Main {
 //        int[] data = {1, 0, 3, -8, 4, -2, 3, -2}; // => [4, -2, 3]
 //        int[] data = {2, 2, -10, 1, 3, -20}; // => [2, 2]
 //        int[] data = {1, 0, 3, -8, 19, -20, 4, -2, 3, -2}; //=> [19]
-//        int[] data = {-1, -2};
-        int[] data = {2, -2, 3, -1};
+//        int[] data = {-1, -2}; // => TEST CASE NOT WORK
+        int[] data = {2, -2, 3, -1}; => // TEST CASE NOT WORK
         System.out.println(func(data));
     }
 }
