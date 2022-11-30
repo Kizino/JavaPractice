@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class BubbleSort {
-    public static int[] BubbleSort(int[] arr){
+    public static void BubbleSort(int[] arr){
         int unsortedPartitionIndex = arr.length;
 //        int step = 0;
         while(unsortedPartitionIndex > 0){
@@ -20,13 +20,11 @@ public class BubbleSort {
             }
             unsortedPartitionIndex--;
         }
-
-        return arr;
     }
     public static void main(String[] args) {
         int[] arr = {20, 35, -15, 7, 55, 1, -22};
-
-        System.out.println(Arrays.toString(BubbleSort(arr)));
-
+        System.out.println(Arrays.toString(arr));
+        BubbleSort(arr);
+        System.out.println(Arrays.toString(arr));
     }
 }
