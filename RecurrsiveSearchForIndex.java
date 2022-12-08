@@ -7,15 +7,15 @@ public class RecurrsiveSearchForIndex {
             return -1;
         }
 
-        if(keyword == list[0]){
-            return list.length;
+        if(keyword == list[list.length-1]){
+            return list.length-1;
         }else{
-            return recurrsiveSearch(keyword, Arrays.copyOfRange(list,1,list.length));
+            return recurrsiveSearch(keyword, Arrays.copyOfRange(list,0,list.length-1));
         }
     }
 
     public static void main(String[] args) {
         String[] arr = {"Hey", "Hello", "There"};
-        System.out.println(recurrsiveSearch("There",arr));
+        System.out.println(recurrsiveSearch("Oi",arr));
     }
 }
